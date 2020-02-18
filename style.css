@@ -4,10 +4,81 @@
     background: url("./assets/images/Blow.jpg");
     background-size: cover;
     margin-left: 6.25%;
+    
 }
 
 
 .header {
-    height: px;
-    background: aqua;
+    height: 120px;
+    
+    display: flex;
+    justify-content: space-between;
+    
 }
+
+.navbar {
+    width: 480px;
+    margin: 30px 30px 0 0;
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a {
+    display: flex;
+    width: 100px;
+    height: 41px;
+    border-radius: 20px;
+    
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat";
+} 
+
+.navbar ul li a:hover {
+    
+    background-color: #000000;
+    color: white;
+   border: none;
+} 
+
+.logo {
+    font-size: 40px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 900;
+    margin: 30px 0 0 30px;
+}
+
+.explore button {
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #fff;
+    font-family: "Montserrat";
+    border: none;
+    text-transform: uppercase;
+    }
+
+    .explore {
+        width: fit-content;
+        margin: 400px auto 0;
+        
+        box-shadow: 7px 63px 113px 53px rgba(0,0,0,0.87);
+    }
+
+.sidebar {
+    width: 6.25%;
+    background: red;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+}        
