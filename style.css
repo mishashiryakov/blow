@@ -1,6 +1,13 @@
 .wrapper {
     height: 100vh;
-    width: 100vw;
-    background: green;
-    
+    width: 93.75%;
+    background: url("./assets/images/Blow.jpg");
+    background-size: cover;
+    margin-left: 6.25%;
+}
+
+
+.header {
+    height: px;
+    background: aqua;
 }
